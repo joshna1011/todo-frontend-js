@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const baseUrl = 'http://18.233.96.113:8000/api/todos/';
+    const baseUrl = 'https://sahitvasu.info/api/todos/';
 
     // Function to fetch all todos from the backend
     function fetchTodos() {
