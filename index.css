@@ -1,0 +1,93 @@
+/* Example styles for the todo application */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+li.todo-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo-checkbox {
+    margin-right: 10px;
+}
+
+.todo-details {
+    flex: 1;
+}
+
+.todo-title {
+    font-weight: bold;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.todo-description {
+    margin-top: 5px;
+    color: #666;
+}
+
+.delete-icon {
+    cursor: pointer;
+    color: #f44336;
+    font-size: 18px;
+}
